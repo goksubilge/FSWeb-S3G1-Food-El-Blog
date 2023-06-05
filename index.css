@@ -37,9 +37,21 @@ line-height: 1.4;
 
 /*======= Sayfadaki TÜM imajlar için aşağıdaki özellikleri içeren bir selector yaratın:
 
-  border-radius: 10px;
+  border-radius: 10px; 
 
 */
+.header-row {
+  background-color: #f5f5f5;
+}
+
+.header-img {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.header-img img {
+  width: 100%;
+}
 
 .content-row {
   display: flex;
@@ -47,6 +59,7 @@ line-height: 1.4;
 
 .content-row div {
   /*======= margin propery yaratın.  Değerini 20px olarak atayın*/
+  margin: 20px;
 }
 
 .container {
@@ -77,7 +90,9 @@ line-height: 1.4;
 /*======= Hakkmızda bölümü için aşağıdaki stilleri içeren bir selector yaratın:
   margin-top: 20px;
 */
-
+.about {
+  margin-top: 20px;
+}
 .contact-section {
   border-top: 1px dashed black;
   padding: 20px 0;
@@ -100,7 +115,8 @@ footer {
 
 footer .footer-content {
   margin: 0 auto;
-  /*======= width property yaratın. Değerini 605px olarak atayın */
+  /*======= width property yaratın. Değerini 755px olarak atayın */
+  width: 755px;
 }
 
 footer .footer-content h3 {
@@ -117,14 +133,24 @@ footer nav {
   color: black;
   text-decoration: underline;
 */
+.footer a {
+  margin: 10px;
+  color: black;
+  text-decoration: underline;
+}
 
 footer nav a:first-child {
-  margin-left: 0;
+  margin-right: 0;
+  color: white;
 }
 
 /*======= Footer nav'daki anchor tag için aşağıdaki stilleri içeren bir hover state yaratın:
   color: white;
+
 */
+.footer nav a:hover {
+  margin-right: 0;
+}
 
 footer .footer-content .copyright {
   padding: 20px 0;
